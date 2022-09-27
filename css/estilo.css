@@ -1,0 +1,201 @@
+body{
+
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 0%;
+
+}
+header{
+
+    background-color: #EAC926;
+
+}
+.lista{
+
+    font-size: 24px;
+
+   }
+
+.precios{
+
+    font-size: 18px;
+
+}
+
+.descuentos{
+
+    font-size: 16px;
+
+}
+
+.cuerpo{
+
+    font-size: 12px;
+
+}
+
+.descripcion{
+
+    font-size: 16px;
+}
+
+.a1{
+
+    margin-top: 2%;
+
+}
+
+
+
+
+
+footer{
+    margin: 0%;
+    padding: 0%;
+    background-color: #ebebeb;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.cont-foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#pagos{
+    color: #1259c3;
+    size: 2em;
+    margin-bottom: 10px;
+}
+
+.ultima-visita{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+
+}
+
+.main{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin:auto;
+}
+
+.imag{
+    justify-content: center;
+}
+
+.hamb{
+    position: relative;
+    left: 600px;
+    height: 100px;
+    width: 60px;
+    background-color: #1259c3;
+    color: #ebebeb;
+    border-radius: 5%;
+    border: none;
+}
+
+.descrip{
+    text-align: center;
+}
+
+.meli{
+    margin-left: 3%;
+    display:flex;
+    flex-direction: column;
+}
+
+.nav{
+    position:relative;
+    bottom:50px;
+    width: 250px;
+}
+
+.nav1{
+    position:relative;
+    bottom:50px;
+}
+
+.a{
+    color: black;
+    text-decoration: none;
+    text-decoration: black;
+
+    text-decoration: none;
+    text-emphasis: none;
+}
+
+.product1{
+    background-color: white;
+    margin: 1%;
+    border:10px solid #ebebeb ;
+    padding: 15px;
+    width: 90%;
+}
+
+.product2{
+    background-color: white;
+    margin: 1%;
+    border:10px solid #ebebeb  ;
+    padding: 15px;
+    width: 90%;
+}
+
+.product3{
+    background-color: white;
+    margin: 1%;
+    border:10px solid #ebebeb ;
+    padding: 15px;
+    width: 90%;
+}
+
+.product4{
+    background-color: white;
+    margin: 1%;
+    border:10px solid #ebebeb ;
+    padding: 15px;
+    width: 90%;
+}
+
+@media (max-width:361px){
+    .product1{
+
+        font-size: 0px;
+
+    }
+
+    .product2{
+
+        font-size: 0px;
+
+    }
+    .product3{
+
+        font-size: 0px;
+}       
+    .product4{
+
+        font-size: 0px;
+
+    }
+        
+    }
+
+@media (min-width:769px){
+    .product1{ box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .product2{ box-shadow: 0px 0px 10px rgb(100, 100, 100);
+      }
+    .product3{ box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+.product4{ box-shadow: 0px 0px 10px rgb(100, 100, 100);
+           }
+}
+
