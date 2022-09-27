@@ -9,6 +9,5 @@ console.log("Servidor corriendo")
 app.listen(process.env.PORT || 3090,() => { 
 })
 app.get("/",(req,res)=> {
-    res.sendFile(path.join(__dirname,"/proyectom/home.html"))
+    res.sendFile(path.join(__dirname,"/prueba123/home.html"))
 })
-
